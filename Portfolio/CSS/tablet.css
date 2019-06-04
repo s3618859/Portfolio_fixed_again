@@ -1,0 +1,179 @@
+@media screen and (max-width: 768px) {
+
+	/*//////////The written elements//////////*/
+
+	.myHeader{
+		font-size: 60px;
+		margin-top: 150px;
+		margin-left: 150px;
+
+	}
+
+	#button{
+		margin-top:260px;
+		margin-left:150px;
+
+	}
+
+	#button1, #button2, #button3{
+		font-size: 20px;
+		height: 40px;
+		width: 100px;
+		margin-right: 86px;
+	}
+
+	/*//////////First hair from the top//////////*/
+	#hairOne {
+		max-width:50%;
+		margin-top: -240px;
+		margin-right: 100px;
+	}
+
+
+	/*/////////Round-ish hair from the top left corner//////////*/
+	#hairTwo {
+		max-width:30%;
+		margin-top:-350px;
+		margin-left:-350px;
+	}
+
+	/*//////////Hair at the far left corner//////////*/
+	#hairThree {
+		max-width:30%;
+		margin-top: -60px;
+		margin-left:-200px;
+	}
+
+	/*//////////Second hair from the far left corner//////////*/
+	#hairFour {
+		display:none;
+	}
+
+
+
+	/*//////////Smaller hair from the top left corner//////////*/
+	#hairFive {
+		max-width:30%;
+		margin-top: -300px;
+		margin-left: -280px;
+	}
+
+	/*//////////Left hair the woman is sitting on//////////*/
+	#hairSix {
+		max-width:20%;
+		margin-bottom: -150px;
+		margin-left:-280px;
+	}
+
+
+	/*//////////Right hair the woman is sitting on//////////*/
+	#hairSeven {
+		max-width:20%;
+		margin-bottom:-150px;
+		margin-right:300px;
+	}
+
+
+	/*//////////Big hair at the bottom right//////////*/
+	#hairEight {
+		max-width:30%;
+        margin-bottom: -240px;
+        margin-right: 20px;
+    }
+
+	/*//////////Smaller hair on the right//////////*/
+	#hairNine {
+		max-width:30%;
+        margin-top: -200px;
+        margin-right: -50px;
+	}
+
+
+	/*//////////Biggest hair on the right//////////*/
+	#hairTen {
+		max-width:20%;
+		margin-top: -100px;
+		margin-right: -50px;
+	}
+
+	/*//////////Animation//////////*/
+	@keyframes enter{
+		from{opacity: 0;}
+		to{opacity: 1;}
+
+	}
+
+	@keyframes hairLeft{
+		from{transform: translateX(0px);}
+		to{transform: translateX(50px);}
+	}
+
+	@keyframes hairRight{
+		from{padding-right:0px;}
+		to{padding-right:50px}
+	}
+
+	/* The Modal (background) */
+	.modal1 {
+	  margin-left:15px;
+	  margin-top:15px;
+	}
+
+
+	.content{
+		margin-top:-50px;
+		margin-left:50px;
+		padding: 10%;
+	}
+
+	#intro{
+		font-family: 'Oswald', sans-serif;
+		color:#091449;
+		font-size:50px;
+	}
+
+	#introPara{
+		color:#091449;
+		font-size:20px;
+	}
+
+	/*//////////Woman//////////*/
+
+	.entireWoman{
+		animation: enter 5s;
+		position:relative;
+		top:0;
+		left:0;
+		margin-top:520px;
+		margin-left:280px;
+	}
+
+	.entireWoman > #Woman {
+		position: absolute;
+		max-width:40%;
+		height:auto;
+		z-index: 4;
+	}
+
+	/*//////////Upper arm//////////*/
+	.entireWoman > #upperRotate{
+		max-width:40%;
+		height:auto;
+		position: absolute;
+		z-index: 3;
+		transform-origin: 90% 90%;
+		top:0;
+		left:0;
+		margin-top:10px;
+		margin-left:-90px;
+	}
+
+
+
+	.img{
+		max-width:100%;
+	}
+
+
+
+}
